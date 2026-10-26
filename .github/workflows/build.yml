@@ -44,6 +44,10 @@ jobs:
             image_alias: ""
             base_image: "ghcr.io/ublue-os/bazzite-nvidia-open:latest"
             image_desc: "HyprBazzite Custom Image with NVIDIA open drivers, based on bazzite-nvidia-open"
+          - image_name: "hyprbazzite-nvidia-legacy"
+            image_alias: ""
+            base_image: "ghcr.io/ublue-os/bazzite-nvidia:stable"
+            image_desc: "HyprBazzite with proprietary NVIDIA drivers for legacy GPUs"
 
     permissions:
       contents: read
